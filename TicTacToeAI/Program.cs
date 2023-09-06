@@ -17,7 +17,8 @@
                 while (true)  // Inner loop for a single game
                 {
                     //Print the board
-                    PrintBoard(Rows, Columns);
+                    //PrintBoard(Rows, Columns);
+                    PrintBoard(Board);
 
                     if (IsGameOver())
                     {
@@ -33,7 +34,7 @@
                     if (player1Turn)
                     {
                         Console.Write("Enter new column (0-2): ");
-                        if (!int.TryParse(Console.ReadLine(), out toRow) || toRow < 0 || toRow > 2)
+                        if (!int.TryParse(Console.ReadLine(), out toRow) || toRow < 0 || toRow > Rows)
                         {
                             Console.WriteLine("Invalid input - Try again.");
                             Thread.Sleep(1000);
@@ -41,13 +42,14 @@
                         }
 
                         Console.Write("Enter new row (0-2): ");
-                        if (!int.TryParse(Console.ReadLine(), out toCol) || toCol < 0 || toCol > 2)
+                        if (!int.TryParse(Console.ReadLine(), out toCol) || toCol < 0 || toCol > Columns)
                         {
                             Console.WriteLine("Invalid input - Try again.");
                             Thread.Sleep(1000);
                             continue;
                         }
                     }
+                    //AI's turn make the best move
                     else
                     {
                         Tuple<int, int> bestMove = GetBestMove();
@@ -101,24 +103,25 @@
         }
 
         //Print the board
-        static void PrintBoard(int rows, int columns)
+        static void PrintBoard(char[,] board)
         {
             Console.Clear();
-            Console.WriteLine("      0       1       2");
-            for (int row = 0; row < rows; row++)
+            Console.WriteLine("      " + string.Join("       ", Enumerable.Range(0, Columns)));
+            for (int row = 0; row < Rows; row++)
             {
                 //Seperate columns
-                Console.WriteLine("  +-------+-------+-------+");
+                Console.WriteLine("  " + new string('+', Columns * 8 + 1));
                 //Seperate rows
                 Console.Write(row + " |");
-                for (int col = 0; col < columns; col++)
+                for (int col = 0; col < Columns; col++)
                 {
                     Console.Write("   " + Board[row, col] + "   |");
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("  +-------+-------+-------+");
+            Console.WriteLine("  " + new string('+', Columns * 8 + 1));
         }
+
 
         static bool ValidMove(int toRow, int toCol)
         {
