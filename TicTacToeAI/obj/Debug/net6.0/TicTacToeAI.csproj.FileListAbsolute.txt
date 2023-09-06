@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\bin\Debug\net6.0\TicTacToeAI.exe
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\bin\Debug\net6.0\TicTacToeAI.deps.json
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\bin\Debug\net6.0\TicTacToeAI.runtimeconfig.json
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\bin\Debug\net6.0\TicTacToeAI.dll
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\bin\Debug\net6.0\TicTacToeAI.pdb
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.dll
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\refint\TicTacToeAI.dll
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.pdb
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\TicTacToeAI.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\TicTacToeAI\TicTacToeAI\obj\Debug\net6.0\ref\TicTacToeAI.dll
